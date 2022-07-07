@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "csv": "^6.1.5",
+    "csv-parse": "^5.2.2",
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security"
+  },
+  "scripts": {
+    "build": "tsc",
+    "execute:ts": "ts-node src/main.ts",
+    "execute:js": "node dist/main.js"
+  }
+}
